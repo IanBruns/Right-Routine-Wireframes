@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right Routine</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css"
+        rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Right Routine</h1>
+    </header>
+
+    <main>
+        <h2>Add an Exercise</h2>
+        <form class='add-exercise-form'>
+            <div class='form-options'>
+                <label for='ename'>Exercise Name</label>
+                <br>
+                <input type='text' placeholder='Enter Exercise Name' name='ename' required>
+            </div>
+            <div class='form-options'>
+                <label for='edesc'>Exercise Description</label>
+                <br>
+                <input type='text' placeholder='Enter description' name='edesc' required>
+            </div>
+            <div class='form-options'>
+                <label for='ecat'>What Category does this belong to?</label>
+                <br>
+                <select id='ecat' name='ecat'>
+                    <option value=''>-----</option>
+                    <option value='e1'>Example 1</option>
+                    <option value='e2'>Example 2</option>
+                    <option value='e3'>Example 3</option>
+                </select>
+            </div>
+            <button class='myButton' type='submit'>Submit</button>
+        </form>
+        <button class='myButton'>Back</button>
+    </main>
+
+    <!-- <script src="scripts.js"></script> -->
+</body>
+
+</html>
